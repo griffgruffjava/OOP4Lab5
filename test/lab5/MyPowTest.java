@@ -65,7 +65,7 @@ public class MyPowTest
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
         
-        System.out.println("myPow2");
+        System.out.println("myPow3");
          x = 6;
         y = 0;
         expResult = 1;

@@ -56,6 +56,17 @@ public class FibonacciTest
         assertEquals(expResult, result);
         
     }
+    
+    @Test
+    public void testFib_iter2()
+    {
+        System.out.println("fib_iter 2");
+        int n = 9;
+        int expResult = 34;
+        int result = Fibonacci.fib_iter(n);
+        assertEquals(expResult, result);
+        
+    }
 
     /**
      * Test of fib_recur method, of class Fibonacci.
@@ -71,4 +82,14 @@ public class FibonacciTest
         
     }
     
+    @Test
+    public void testFib_recur2()
+    {
+        System.out.println("fib_recur 2");
+        int n = 9;
+        int expResult = 34;
+        int result = Fibonacci.fib_recur(n);
+        assertEquals(expResult, result);
+        
+    }
 }
